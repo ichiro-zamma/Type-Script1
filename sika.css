@@ -1,0 +1,27 @@
+/* 四角形を並べるためのコンテナ設定 */
+.container {
+  display: flex;
+  gap: 20px;          /* 隙間を少し広くしました */
+  flex-wrap: wrap;
+  padding: 40px;      /* 周りの余白を広げました */
+  justify-content: center; /* 四角形を画面の真ん中に寄せます */
+}
+
+/* 四角形自体の設定 */
+.square {
+  width: 120px;       /* 少し大きくしました */
+  height: 120px;
+  background-color: #ff6b6b; /* 可愛い赤色（コーラルピンク）に変えました */
+  color: white;
+  border-radius: 12px; /* ★四角形の角を丸くしてオシャレにしました！ */
+  
+  /* 文字をド真ん中に配置する設定 */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 28px;
+  font-weight: bold;
+  
+  /* 影をつけて立体感を出しました */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15); 
+}
